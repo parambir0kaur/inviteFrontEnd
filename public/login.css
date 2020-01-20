@@ -1,0 +1,9 @@
+.login_div{
+    widows: 60%;
+    margin: auto;
+}
+.field{
+    width: 20em;
+    height: 2em;
+    border-radius: 5px;
+}
