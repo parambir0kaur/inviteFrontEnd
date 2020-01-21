@@ -5,6 +5,7 @@ import Post from './Components/Post';
 import Postform from './Components/Postform';
 import Login from  './Components/Login';
 import Signup from './Components/Signup';
+import Home from './Components/Home';
 import {Provider} from 'react-redux';
 import store from './store';
 import {
@@ -26,8 +27,11 @@ function App() {
             <Route path="/signup">
               <Signup />
             </Route>
-            <Route path="/">
+            <Route path="/login">
               <Login />
+            </Route>
+            <Route path="/">
+              <Home />
             </Route>
           </Switch>
         </div>
